@@ -1,0 +1,50 @@
+{
+"1" : {
+"name": "Case" ,
+"cost":  "100$" ,
+"description": "the best case" ,
+"oder": " 1 " ,
+"img" : " img/case.png "
+  },
+
+  "2" : {
+    "name": "Dress" ,
+    "cost":  "100$" ,
+    "description": "the best dress" ,
+    "oder": " 2 " ,
+    "img" : " img/dress.png "
+      },
+
+    "3" : {
+    "name": "Bike" ,
+    "cost":  "100$" ,
+    "description": "the best bike" ,
+    "oder": " 3 " ,
+    "img" : "img/Bike.png"
+    },
+    
+"4" : {
+    "name": "Bug" ,
+    "cost":  "100$" ,
+    "description": "the best BUG" ,
+    "oder": " 4 " ,
+    "img" : "img/beg.png"
+    },
+
+"5" : {
+  "name": "Watch" ,
+   "cost":  "100$" ,
+   "description": "the best Watch" ,
+   "oder": " 5 " ,
+   "img" : "img/Watch.png"
+    },
+    
+ "6" : {
+   "name": "Phone" ,
+    "cost":  "100$" ,
+    "description": "the best phone" ,
+    "oder": " 6 " ,
+     "img" : "img/Phone.png"
+      } 
+
+}
