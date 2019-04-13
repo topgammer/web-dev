@@ -7,13 +7,47 @@ menu.onclick = function myFunction() {
   }
 }
 
-function init(){ // read goods and call fun goods
-  $.getJSON("goods.json", goodsOut) // 1 must get name 
+
+function init() {
+  //вычитуем файл goods.json
+  $.getJSON("goods.json", goodsOut);
 }
 
-function goodsOut(data){ // get all json file in var data
-var goods = JSON.parse(data); // and vivod na str
-console.log(data);
+
+function goodsOut(data) {
+  console.log(data);
+  var out='';
+  for (var key in data){
+  //   out +='<div class="goods-list">';
+  //   out +='<div class="itemname">'+data[key].name+'</div>';
+  //   out += '<img src="img/'+data[key].img+'" alt="">';
+  //   out +='<div class="priseitem">'+data[key].cost+'</div>';
+  //   out +='<button class="prise-btn">Buy</button>';
+  //   out +='</div>';
+  // }
+  //===========
+  // out +='<div class="goods-list">';
+  // out +=`<div class="itemname">${data[key].name}</div>`;
+  // out +=`<img src="img/${data[key].img}" alt="">`;
+  // out +=`<div class="priseitem">${data[key].cost}</div>`;
+  // out +=`<button class="prise-btn" data-id="${key}">Buy</button>`;
+  // out +='</div>';
+///
+
+out +='<div class="goods-out">';
+out +=`<img class="img-item" src="img/${data[key].img}" alt="1">`;
+out +=`<p class="itemname">${data[key].name}</p>`;
+out +=`<div class="priseitem">${data[key].cost}</div>`;
+ out+='<button class="prise-btnn" data-id="${key}">Купить</button>';
+ out +='</div>';
+  }
+  $('.goods-out').html(out);
 }
 
+
+
+$(document).ready(function() {
 init();
+});
+
+
