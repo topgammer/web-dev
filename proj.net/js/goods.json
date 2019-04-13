@@ -1,50 +1,49 @@
 {
-"1" : {
-"name": "Case" ,
-"cost":  "100$" ,
-"description": "the best case" ,
-"oder": " 1 " ,
-"img" : " img/case.png "
+  "1234": {
+    "name": "Case",
+    "cost": "100$",
+    "description": "the best case",
+    "order": 3,
+    "img" : "case.png"
+  },
+  "1235": {
+    "name": "Dress",
+    "cost": "200$",
+    "description": "the best dress",
+    "order": 5,
+    "img" : "dress.png"
+  },
+  "1236": {
+    "name": "Bike",
+    "cost": "150$",
+    "description": "the best bike",
+    "order": 1,
+    "img" : "Bike.png"
+  },
+  "1237": {
+    "name": "Bug",
+    "cost": "399$",
+    "description": "the best BUG",
+    "order": 8,
+    "img" : "beg.png" ,
+    "id" : "rrr"
   },
 
-  "2" : {
-    "name": "Dress" ,
-    "cost":  "100$" ,
-    "description": "the best dress" ,
-    "oder": " 2 " ,
-    "img" : " img/dress.png "
-      },
+  "1238": {
+    "name": "Watch",
+    "cost": "200$",
+    "description": "the best Watch",
+    "order": 8,
+    "img" : "Watch.png",
+    "id" : "rrr"
+  },
 
-    "3" : {
-    "name": "Bike" ,
-    "cost":  "100$" ,
-    "description": "the best bike" ,
-    "oder": " 3 " ,
-    "img" : "img/Bike.png"
-    },
-    
-"4" : {
-    "name": "Bug" ,
-    "cost":  "100$" ,
-    "description": "the best BUG" ,
-    "oder": " 4 " ,
-    "img" : "img/beg.png"
-    },
-
-"5" : {
-  "name": "Watch" ,
-   "cost":  "100$" ,
-   "description": "the best Watch" ,
-   "oder": " 5 " ,
-   "img" : "img/Watch.png"
-    },
-    
- "6" : {
-   "name": "Phone" ,
-    "cost":  "100$" ,
-    "description": "the best phone" ,
-    "oder": " 6 " ,
-     "img" : "img/Phone.png"
-      } 
-
+  "1239": {
+    "cost": "500$",
+    "name": "Phone",
+    "description": "the best phone",
+    "order": 8,
+    "img" : "Phone.png" ,
+    "id" : "rrr"
+  }
 }
