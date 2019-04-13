@@ -1,3 +1,4 @@
+
 @media only screen and (max-width: 1673px ){
 header{
   height: 150px;
@@ -6,9 +7,23 @@ header{
   max-width: 100%;
 }
 
+.prise-btnn{
+  border: 2px solid black;
+width: 200px;
+height:33px;
+background-color: #fff;
+text-decoration: none;
+text-align: center;
+padding: 5px;
+}
+
+ .prise-btnn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .logo {
-
   background: #fff;
   max-width: 100%;
   margin-right: 530px;
@@ -16,9 +31,7 @@ header{
 
 .graficlogo {
   padding: 5px;
-  max-width: 100%
-
-
+  max-width: 100%;
 }
 
 nav {
@@ -32,9 +45,7 @@ nav {
 .topnav {
   background-color: #fff;
   font-size: 14;
-    display: flex;
-  
- 
+  display: flex;
 }
 
 .topnav a {
@@ -66,6 +77,21 @@ header{
   max-width: 100%;
 }
 
+.prise-btnn{
+  border: 2px solid black;
+width: 200px;
+height:33px;
+background-color: #fff;
+text-decoration: none;
+text-align: center;
+padding: 5px;
+}
+
+ .prise-btnn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .logo {
 
@@ -199,7 +225,7 @@ nav {
         padding-top: 5px;
       }
 
-      .goods-list{
+      .goods-out{
           display: flex;
           flex-flow: row wrap;
          max-height: 1200px;
@@ -340,7 +366,7 @@ nav {
         padding-top: 5px;
       }
 
-      .goods-list{
+      .goods-out{
           display: flex;
           flex-flow: row wrap;
          max-height: 1200px;

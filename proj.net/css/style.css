@@ -20,21 +20,15 @@ header{
   background-color: white;
   max-width: 100%;
 }
-
-
 .logo {
-
   background: #fff;
   max-width: 100%;
   margin-right: 500px;
-margin-top:  30px ;
+ margin-top:  30px ;
 }
-
 .graficlogo {
   padding: 5px;
   max-width: 100%
-
-
 }
 
 nav {
@@ -48,9 +42,7 @@ nav {
 .topnav {
   background-color: #fff;
   font-size: 14;
-    display: flex;
-  
- 
+  display: flex;
 }
 
 .topnav a {
@@ -63,11 +55,6 @@ nav {
 .topnav .icon {
   display: none;
 }
-
-
-
-
-
 body{
   margin: 0;
   font-family: sans-serif;
@@ -78,56 +65,42 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-
   /*height: 65vh;
   min-height: 600px; */
   background-color: #edf1f2 ;
   color: #fff;
 }
-
-
-
 .menu{
-  display: flex;
+display: flex;
 margin-top: 50px;
 margin-right: 360px;
 }
-
-
-
-
 .banner{
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 20px;
-
 }
-
 .ban-size{
 width: 1170px;
   max-width: 100%;
 }
-
 .main{
 display: flex;
 flex-direction: column;
 align-items: center;
-height: 65vh;
-min-height: 1200px;
+height: 32vh;
+min-height: 600px;
 background-color: #edf1f2 ;
 color: #000;
+
 }
-
-
 .hhh{
 height: 60px;
 width: 1170px;
 background-color:#fff;
 margin-top:50px;
-
 border-bottom:  1px solid #dde2e6;
-
 }
 .title{
 margin-left: 50px;
@@ -142,7 +115,73 @@ padding-top: 2px;
  max-width: 1170px;
  background-color: #fff;
 }
+/* parasha *//* parasha *//* parasha *//* parasha *//* parasha *//* parasha *//* parasha */
 
+.prise-btnn{
+border: 2px solid black;
+width: 200px;
+height:33px;
+background-color: #fff;
+text-decoration: none;
+text-align: center;
+padding: 5px;
+}
+
+.goods-out {
+display: flex;
+flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+width: 390px;
+height:450px;
+
+margin-top: 50px;
+
+}
+
+/* .goods-out:nth-child(4) {
+  display: flex;
+  flex-wrap: wrap; 
+  
+  margin-top: 600px;
+  margin-right: 300px; 
+  
+  
+ } 
+
+ .goods-out:nth-child(5) {
+  display: flex;
+  flex-wrap: wrap; 
+  background: #461717; 
+  margin-right: 300px; 
+  
+ } 
+
+ .goods-out:nth-child(6) {
+  display: flex;
+  flex-wrap: wrap; 
+   
+  margin-top: 600px;
+  margin-right: 300px; 
+ 
+ }  */
+
+ .prise-btnn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mini-cart{
+  display: flex;
+  flex-flow: row wrap;
+
+ max-height: 1200px;
+ width:100%;
+ max-width: 1170px;
+ background-color: #fff;
+}
+/* parasha *//* parasha *//* parasha *//* parasha *//* parasha *//* parasha *//* parasha *//* parasha */
 .img-item{
   display: flex;
   justify-content: flex-end;
@@ -187,6 +226,10 @@ color:black;
 color: black;
 }
 
+.goods-list .prise-btn{
+  cursor: pointer;
+}
+
 #hhh{
 display: flex;
 justify-content: center;
@@ -194,16 +237,11 @@ padding-bottom: 10px;
 height: 60px;
 width: auto;
 background-color:#202326;
-
 border-bottom:  1px solid #dde2e6;
+} */
 
-}
+ footer{
 
-
-
-
-
-footer{
   width: 100%;
     height: 200px;
     background-color: #202326;
